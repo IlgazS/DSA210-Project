@@ -3,7 +3,7 @@
 Sabanci University Fall 2024  
 
 ## Project Overview  
-This project is part of the **DSA210: Introduction to Data Science** course at Sabanci University. The primary goal is to analyze my personal YouTube watch history to uncover insights about my viewing patterns, habits, and interests. Using data collected via Google Takeout, I performed exploratory data analysis (EDA) to identify trends in my behavior and understand how external factors like time of day or academic commitments might influence my choices.  
+This project is part of the **DSA210: Introduction to Data Science** course at Sabanci University. The primary goal is to analyze my personal YouTube watch history to uncover insights about my viewing patterns, habits, and interests. Using data collected via Google Takeout, I performed exploratory data analysis to identify trends in my behavior and understand how external factors might influence my choices.  
 
 ---
 
@@ -18,12 +18,12 @@ This project is part of the **DSA210: Introduction to Data Science** course at S
 ---
 
 ## Motivation  
-I wanted to explore my interaction with YouTube, one of the platforms I use frequently, and gain deeper insights into my preferences, time management, and habits. By analyzing my watch history, I aimed to answer specific questions about my interests, time-based patterns, and how my viewing habits evolve under different circumstances, such as during an academic semester.  
+I wanted to explore my interaction with YouTube, one of the platforms I use frequently, and gain deeper insights into my viewing preferences and habits. By analyzing my watch history, I aimed to answer specific questions about my interests, time based patterns, and how my viewing habits evolve under different circumstances, such as during an academic semester.
 
 ---
 
 ## Data Source  
-The data was obtained via [**Google Takeout**](https://takeout.google.com/), which provides YouTube watch history in an HTML format. Additional video details were fetched using the **YouTube API**, including metadata such as video duration, category, and tags. The dataset includes records from **July to December 2024** and consists of the following fields:  
+The data was obtained from my YouTube account through [**Google Takeout**](https://takeout.google.com/), which provides the YouTube watch history in an HTML format. Additional video details were fetched using the **YouTube API**, including metadata such as video duration, category, and tags. The dataset includes records from **July to December 2024** and consists of the following fields:  
 - `videoURL`, `title`, `channelName`, `timeWatched`, `tags`, `duration`, `categoryName`, `publishedAt`, `defaultAudioLanguage`, `viewCount` and more.  
 
 The final dataset was structured as a pandas DataFrame after preprocessing.  
@@ -74,11 +74,13 @@ The [analysis](Data_Analysis.ipynb) was conducted using Python libraries such as
 ---
 
 ## Findings  
-### Time-Based Patterns  
+### Time Based Patterns  
 - **Daily Routines**: The polar chart shows that most of my viewing activity occurs during the late evening and night, with the peak hours being between 8 PM and 12 AM.
 This indicates a strong preference for consuming content during leisure hours, potentially reflecting habits aligned with relaxation or free time after daily responsibilities.
+The ridgeline plot reveals that categories such as "Entertainment" and "Music" dominate during the late evening and nighttime hours, aligning with typical leisure time. In contrast, educational videos exhibit relatively consistent viewing throughout the day, with slight peaks in the afternoon and evening, potentially reflecting study sessions.
 - **Weekend vs. Weekday**: A two-sample t-test was conducted to determine whether there was a significant difference in the duration of videos watched between weekends and weekdays. The null hypothesis (H₀: No difference in video durations between weekends and weekdays) was rejected. This indicates that there is a statistically significant difference in the durations of videos watched on weekends compared to weekdays. The boxen plot illustrates that the median video duration on weekends is slightly higher than on weekdays. This trend may suggest that weekends allow for more leisure time to consume longer content.
 - **Weekly Trends**: The bar chart showcasing videos watched by the day of the week revealed that Wednesday and Sunday had the highest viewing activity, with Thursday showing a slight dip.
+- **Monthly Trends**: Video consumption peaked significantly in August, while the proportions of categories remained consistent across the months.
 
 ### Content Preferences  
 - **Categories**: Analysis of categories demonstrated that "People & Blogs" dominated the viewership (39%), followed by "Entertainment" (26%), reflecting a strong preference for casual and engaging content.  
@@ -99,12 +101,11 @@ Out of the 4094 videos watched, 3940 were unique, averaging 22.25 videos per day
 ## Limitations and Future Work  
 ### Limitations  
 - **Data Range**: The dataset spans only six months, limiting insights into long-term patterns.  
-- **Granularity**: YouTube does not provide data on how much of each video was watched.    
+- **Granularity**: YouTube does not provide data on how much of each video was watched, and it also does not provide a way to differentiate between regular videos and YouTube Shorts.  
 
 ### Future Work  
 - **Yearly Trends**: Collect data over a full year for comprehensive insights.  
-- **Advanced Analytics**: Incorporate machine learning for content recommendation analysis.  
-- **Visualization Enhancements**: Build an interactive dashboard to make findings more accessible.  
+- **Advanced Analytics**: Incorporate machine learning for content recommendation analysis.
 
 ---
 
