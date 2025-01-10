@@ -57,11 +57,11 @@ The analysis was conducted using Python libraries such as pandas, seaborn, matpl
 7. **Total number of videos watched per month by category**  
    ![Stacked Bar Chart](stacked_bar_chart.png)  
 8. **Video duration vs. view count** 
-   ![Scatterplot](scatterplot.png)  
+   ![Scatterplot](ScatterPlot.png)  
 9. **Video duration on weekdays vs. weekends**  
-   ![Boxen Plot](boxen_plot.png)  
+   ![Boxen Plot](BoxenPlot.png)  
 10. **Percentage of videos watched by category**  
-    ![Pie Chart](pie_chart.png)  
+   ![Pie Chart](PieChart.png)  
  
 
 ---
