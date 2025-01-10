@@ -31,13 +31,13 @@ The final dataset was structured as a pandas DataFrame after preprocessing.
 ---
 
 ## Data Analysis Techniques  
-### Data Processing [Extraction Script](Data_Extraction.ipynb)
-- Extracted HTML data and transformed it into a structured tabular format.
+### Data Processing
+- Extracted HTML data and transformed it into a [structured tabular format](Data_Extraction.ipynb).
 - Merged metadata fetched via the YouTube API.
 - Preprocessed columns like `tags` and `duration` for further analysis.  
 
-### Data Analysis and Visualizations [Analysis Script](Data_Analysis.ipynb)
-The analysis was conducted using Python libraries such as pandas, seaborn, matplotlib, and plotly. Specific techniques included:  
+### Data Analysis and Visualizations
+The [analysis](Data_Analysis.ipynb) was conducted using Python libraries such as pandas, seaborn, matplotlib, and plotly. Specific techniques included:  
 - **Exploratory Data Analysis**: Identified trends in time of day, day of the week, and categories.  
 - **Statistical Tests**: Evaluated hypotheses such as differences in video duration on weekends vs. weekdays.  
 
@@ -92,7 +92,7 @@ This indicates a strong preference for consuming content during leisure hours, p
 The average video duration was 5.72 minutes, reflecting a strong preference for shorter, easily consumable content.
 The Pearson correlation between view count and video duration was calculated to be -0.027, indicating a negligible negative relationship. This suggests that video popularity is not a significant factor in determining my preference for the length of the videos I watch.
 Out of the 4094 videos watched, 3940 were unique, averaging 22.25 videos per day. This highlights a tendency toward exploring diverse content rather than rewatching the same videos.
-- **Category-Specific Viewing Trends**: The majority of the videos watched are relatively recent, as indicated by the concentration of lower medians across most categories in the box plot. However, certain categories, such as "Nonprofits & Activism" and "Education", show a significant proportion of older videos, with their median and interquartile ranges being notably higher than other categories suggesting enduring relevance or niche content consumption. Categories like "Entertainment", "People & Blogs", and "Music" had the lowest video age, reflecting a preference for fresh and trending content in these areas.
+- **Category Specific Viewing Trends**: The majority of the videos watched are relatively recent, as indicated by the concentration of lower medians across most categories in the box plot. However, certain categories, such as "Nonprofits & Activism" and "Education", show a significant proportion of older videos, with their median and interquartile ranges being notably higher than other categories suggesting enduring relevance or niche content consumption. Categories like "Entertainment", "People & Blogs", and "Music" had the lowest video age, reflecting a preference for fresh and trending content in these areas.
 
 ---
 
