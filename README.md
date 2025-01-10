@@ -51,6 +51,7 @@ For details, see the [Data_Analysis.ipynb](Data_Analysis.ipynb) notebook.
 ---
 
 ## Visualizations
+<a name="heatmap"></a>
 1. **Total number of videos watched by day of week & time of day**
    ![Heatmap](Heatmap.png)
 2. **Most-watched 5 channels by the number of videos**
@@ -82,7 +83,7 @@ For details, see the [Data_Analysis.ipynb](Data_Analysis.ipynb) notebook.
 
 ## Findings  
 ### Time Based Patterns  
-- **Daily Routines**: The polar chart shows that most of my viewing activity occurs during the late evening and night, with the peak hours being between 8 PM and 12 AM.
+- **Daily Routines**: The [polar chart](#heatmap) shows that most of my viewing activity occurs during the late evening and night, with the peak hours being between 8 PM and 12 AM.
 This indicates a strong preference for consuming content during leisure hours, potentially reflecting habits aligned with relaxation or free time after daily responsibilities.
 The ridgeline plot reveals that categories such as "Entertainment" and "Music" dominate during the late evening and nighttime hours, aligning with typical leisure time. In contrast, educational videos exhibit relatively consistent viewing throughout the day, with slight peaks in the afternoon and evening, potentially reflecting study sessions.
 - **Weekend vs. Weekday**: A two-sample t-test was conducted to determine whether there was a significant difference in the duration of videos watched between weekends and weekdays. The null hypothesis (H₀: No difference in video durations between weekends and weekdays) was rejected. This indicates that there is a statistically significant difference in the durations of videos watched on weekends compared to weekdays. The boxen plot illustrates that the median video duration on weekends is slightly higher than on weekdays. This trend may suggest that weekends allow for more leisure time to consume longer content.
