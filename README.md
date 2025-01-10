@@ -43,8 +43,7 @@ The analysis was conducted using Python libraries such as pandas, seaborn, matpl
 
 ---
 
-## Visualizations  
-### Key Visualizations  
+## Visualizations
 1. **Total number of videos watched by day of week & time of day**
    ![Heatmap](Heatmap.png)
 2. **Most-watched 5 channels by the number of videos**
@@ -78,14 +77,22 @@ The analysis was conducted using Python libraries such as pandas, seaborn, matpl
 ### Time-Based Patterns  
 - **Daily Routines**: The polar chart shows that most of my viewing activity occurs during the late evening and night, with the peak hours being between 8 PM and 12 AM.
 This indicates a strong preference for consuming content during leisure hours, potentially reflecting habits aligned with relaxation or free time after daily responsibilities.
-- **Weekend vs. Weekday**: A two-sample t-test was conducted to determine whether there was a significant difference in the duration of videos watched between weekends and weekdays. The null hypothesis (H₀: No difference in video durations between weekends and weekdays) was rejected. This indicates that there is a statistically significant difference in the durations of videos watched on weekends compared to weekdays. The [boxen plot](Boxen Plot) illustrates that the median video duration on weekends is slightly higher than on weekdays. This trend may suggest that weekends allow for more leisure time to consume longer content.
+- **Weekend vs. Weekday**: A two-sample t-test was conducted to determine whether there was a significant difference in the duration of videos watched between weekends and weekdays. The null hypothesis (H₀: No difference in video durations between weekends and weekdays) was rejected. This indicates that there is a statistically significant difference in the durations of videos watched on weekends compared to weekdays. The boxen plot illustrates that the median video duration on weekends is slightly higher than on weekdays. This trend may suggest that weekends allow for more leisure time to consume longer content.
+- **Weekly Trends**: The bar chart showcasing videos watched by the day of the week revealed that Wednesday and Sunday had the highest viewing activity, with Thursday showing a slight dip.
 
 ### Content Preferences  
-- **Categories**: Dominant categories included "People & Blogs" (39%) and "Entertainment" (26%).  
-- **Tags**: A chi-squared test was conducted to evaluate whether the distribution of tags differed significantly between videos watched in the morning (6 AM – 12 PM) and at night (8 PM – 2 AM). The null hypothesis (H₀: Tag distributions are the same for morning and night) was **not rejected**, which indicates that no statistically significant difference was found in the distribution of tags between the morning and night segments.
+- **Categories**: Analysis of categories demonstrated that "People & Blogs" dominated the viewership (39%), followed by "Entertainment" (26%), reflecting a strong preference for casual and engaging content.  
+- **Tags**: A chi-squared test was conducted to evaluate whether the distribution of tags differed significantly between videos watched in the morning (6 AM – 12 PM) and at night (8 PM – 2 AM). The null hypothesis (H₀: Tag distributions are the same for morning and night) was **not** rejected, which indicates that no statistically significant difference was found in the distribution of tags between the morning and night segments. Popular tags included "vlog", "comedy", and "music".
+- **Channels**: The top 5 most-watched channels were led by "Celeb Buss Central", which significantly outpaced others, indicating a strong interest in celebrity-related content.
+- **Titles**: The word cloud of video titles revealed key interests in music, beauty, and lifestyle topics. Prominent mentions of "Sabrina Carpenter", "Taylor Swift", and "Billie Eilish" highlight a strong interest in pop culture and specific artists. Words like "makeup", "lipstick" and "look" reflect a focus on beauty-related content.
 
 ### Behavioral Insights  
-- **Academic Influence**: Proportion of "Education" videos slightly decreased during the semester.  
+- **Academic Influence**: It was expected that the proportion of "Education" videos would increase during the academic semester as my focus shifted toward academic content. Contrary to expectations, the proportion of "Education" videos slightly decreased during the semester. This may indicate a shift in my watching habits toward non-academic or recreational content during the semester, perhaps as a way to balance academic responsibilities with leisure.
+- **Viewing Preferences and Patterns**: The heatmap revealed consistent engagement across weekdays and weekends, but with broader time windows on weekends, indicating relaxed viewing habits.
+The average video duration was 5.72 minutes, reflecting a strong preference for shorter, easily consumable content.
+The Pearson correlation between view count and video duration was calculated to be -0.027, indicating a negligible negative relationship. This suggests that video popularity is not a significant factor in determining my preference for the length of the videos I watch.
+Out of the 4094 videos watched, 3940 were unique, averaging 22.25 videos per day. This highlights a tendency toward exploring diverse content rather than rewatching the same videos.
+- **Category-Specific Viewing Trends**: The majority of the videos watched are relatively recent, as indicated by the concentration of lower medians across most categories in the box plot. However, certain categories, such as "Nonprofits & Activism" and "Education", show a significant proportion of older videos, with their median and interquartile ranges being notably higher than other categories suggesting enduring relevance or niche content consumption. Categories like "Entertainment", "People & Blogs", and "Music" had the lowest video age, reflecting a preference for fresh and trending content in these areas.
 
 ---
 
