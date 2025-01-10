@@ -62,7 +62,7 @@ For details, see the [Data_Analysis.ipynb](Data_Analysis.ipynb) notebook.
 5. **Distribution of the number of videos watched across categories throughout the day**
    ![Joy Plot](JoyPlot.png)
 6. **Watch frequency over the hours of the day**  
-   <a name="polarchart">![Polar Chart](PolarChart.png)</a>
+   <a name="polarchart"></a>![Polar Chart](PolarChart.png)
 7. **Distribution of top 10 tags across day segments (morning vs. night)**  
    ![Sankey Diagram](SankeyDiagram.png)  
 8. **Proportion of "Education" videos before and during the academic semester**
