@@ -31,10 +31,12 @@ The final dataset was structured as a pandas DataFrame after preprocessing.
 ---
 
 ## Data Analysis Techniques  
-### Data Processing
-- Extracted HTML data and transformed it into a [structured tabular format](Data_Extraction.ipynb).
-- Merged metadata fetched via the YouTube API.
-- Preprocessed columns like `tags` and `duration` for further analysis.  
+### Data Processing (Data_Extraction.ipynb)
+- HTML file was parsed using BeautifulSoup and loaded into a Pandas DataFrame.
+- Videos were filtered to include only those watched between July and December.
+- Advertisement videos were removed from the dataset.
+- Metadata (e.g., `tags`, `categoryName`, `duration`, `viewCount`) was fetched using the YouTube API and merged with the dataset.
+- Columns like `tags` and `duration` were preprocessed for easier analysis.
 
 ### Data Analysis and Visualizations
 The [analysis](Data_Analysis.ipynb) was conducted using Python libraries such as pandas, seaborn, matplotlib, and plotly. Specific techniques included:  
