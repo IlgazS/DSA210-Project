@@ -38,10 +38,15 @@ The final dataset was structured as a pandas DataFrame after preprocessing.
 - Metadata (e.g., `tags`, `categoryName`, `duration`, `viewCount`) was fetched using the YouTube API and merged with the dataset.
 - Columns like `tags` and `duration` were preprocessed for easier analysis.
 
+For details, see the [Data_Extraction.ipynb](Data_Extraction.ipynb) notebook.
+
 ### Data Analysis and Visualizations
 The [analysis](Data_Analysis.ipynb) was conducted using Python libraries such as pandas, seaborn, matplotlib, and plotly. Specific techniques included:  
-- **Exploratory Data Analysis**: Identified trends in time of day, day of the week, and categories.  
-- **Statistical Tests**: Evaluated hypotheses such as differences in video duration on weekends vs. weekdays.  
+- **Exploratory Data Analysis**: Identified trends in viewing times, days, and content categories.  
+- **Statistical Tests**: Conducted statistical tests to evaluate hypotheses, such as differences in video durations on weekends vs. weekdays.
+- **Summary Statistics**: Calculated key metrics such as average video duration, maximum video duration, average videos watched per day, and more.
+
+For details, see the [Data_Analysis.ipynb](Data_Analysis.ipynb) notebook.
 
 ---
 
