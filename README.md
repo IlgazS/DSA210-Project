@@ -47,17 +47,17 @@ The analysis was conducted using Python libraries such as pandas, seaborn, matpl
 ### Key Visualizations  
 1. **Total number of videos watched by day of week & time of day**
    ![Heatmap](Heatmap.png)
-2. **Most-watched channels (Top 5) by the number of videos**
+2. **Most-watched 5 channels by the number of videos**
    ![Bar Plot](ChannelBarPlot.png)
 3. **Total videos watched by the day of the week**
    ![Bar Plot 2](DOWBarPlot.png)
 4. **Distribution of the age of videos (time since publication) at the time they were watched**
    ![Box Plot](BoxPlot.png)
-5. **Total videos watched across categories throughout the day**
+5. **Distribution of the number of videos watched across categories throughout the day**
    ![Joy Plot](JoyPlot.png)
 6. **Watch frequency over the hours of the day**  
    ![Polar Chart](PolarChart.png)  
-7. **Distribution of tags across day segments (morning vs. night)**  
+7. **Distribution of top 10 tags across day segments (morning vs. night)**  
    ![Sankey Diagram](SankeyDiagram.png)  
 8. **Proportion of "Education" videos before and during the academic semester**
    ![Slope Chart](SlopeChart.png)  
@@ -72,17 +72,17 @@ The analysis was conducted using Python libraries such as pandas, seaborn, matpl
 13. **Percentage of videos watched by category**  
    ![Pie Chart](PieChart.png)  
  
-
 ---
 
 ## Findings  
 ### Time-Based Patterns  
-- **Daily Routines**: Most active viewing times were late evening and night, peaking between 8 PM and 12 AM.  
-- **Weekend vs. Weekday**: Video durations differed significantly, with longer videos watched on weekends (p < 0.05).  
+- **Daily Routines**: The polar chart shows that most of my viewing activity occurs during the late evening and night, with the peak hours being between 8 PM and 12 AM.
+This indicates a strong preference for consuming content during leisure hours, potentially reflecting habits aligned with relaxation or free time after daily responsibilities.
+- **Weekend vs. Weekday**: A two-sample t-test was conducted to determine whether there was a significant difference in the duration of videos watched between weekends and weekdays. The null hypothesis (H₀: No difference in video durations between weekends and weekdays) was rejected. This indicates that there is a statistically significant difference in the durations of videos watched on weekends compared to weekdays. The [boxen plot](Boxen Plot) illustrates that the median video duration on weekends is slightly higher than on weekdays. This trend may suggest that weekends allow for more leisure time to consume longer content.
 
 ### Content Preferences  
 - **Categories**: Dominant categories included "People & Blogs" (39%) and "Entertainment" (26%).  
-- **Tags**: Morning and night viewing had distinct tag distributions, as highlighted in the Sankey diagram.  
+- **Tags**: A chi-squared test was conducted to evaluate whether the distribution of tags differed significantly between videos watched in the morning (6 AM – 12 PM) and at night (8 PM – 2 AM). The null hypothesis (H₀: Tag distributions are the same for morning and night) was **not rejected**, which indicates that no statistically significant difference was found in the distribution of tags between the morning and night segments.
 
 ### Behavioral Insights  
 - **Academic Influence**: Proportion of "Education" videos slightly decreased during the semester.  
