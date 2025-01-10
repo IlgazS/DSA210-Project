@@ -61,22 +61,21 @@ For details, see the [Data_Analysis.ipynb](Data_Analysis.ipynb) notebook.
    ![Box Plot](BoxPlot.png)
 5. **Distribution of the number of videos watched across categories throughout the day**
    ![Joy Plot](JoyPlot.png)
-<a name="polarchart"></a>
-7. **Watch frequency over the hours of the day**  
-   ![Polar Chart](PolarChart.png)  
-8. **Distribution of top 10 tags across day segments (morning vs. night)**  
+6. **Watch frequency over the hours of the day**  
+   <a name="polarchart">![Polar Chart](PolarChart.png)</a>
+7. **Distribution of top 10 tags across day segments (morning vs. night)**  
    ![Sankey Diagram](SankeyDiagram.png)  
-9. **Proportion of "Education" videos before and during the academic semester**
+8. **Proportion of "Education" videos before and during the academic semester**
    ![Slope Chart](SlopeChart.png)  
-10. **Frequently occurring words in video titles**  
+9. **Frequently occurring words in video titles**  
    ![Word Cloud](Wordcloud.png)  
-11. **Total number of videos watched per month by category**  
+10. **Total number of videos watched per month by category**  
    ![Stacked Bar Chart](StackedBarChart.png)  
-12. **Video duration vs. view count** 
+11. **Video duration vs. view count** 
    ![Scatterplot](ScatterPlot.png)  
-13. **Video duration on weekdays vs. weekends**  
+12. **Video duration on weekdays vs. weekends**  
    ![Boxen Plot](BoxenPlot.png)  
-14. **Percentage of videos watched by category**  
+13. **Percentage of videos watched by category**  
    ![Pie Chart](PieChart.png)  
  
 ---
