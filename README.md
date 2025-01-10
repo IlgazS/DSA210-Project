@@ -51,7 +51,6 @@ For details, see the [Data_Analysis.ipynb](Data_Analysis.ipynb) notebook.
 ---
 
 ## Visualizations
-<a name="heatmap"></a>
 1. **Total number of videos watched by day of week & time of day**
    ![Heatmap](Heatmap.png)
 2. **Most-watched 5 channels by the number of videos**
@@ -62,28 +61,29 @@ For details, see the [Data_Analysis.ipynb](Data_Analysis.ipynb) notebook.
    ![Box Plot](BoxPlot.png)
 5. **Distribution of the number of videos watched across categories throughout the day**
    ![Joy Plot](JoyPlot.png)
-6. **Watch frequency over the hours of the day**  
+<a name="polarchart"></a>
+7. **Watch frequency over the hours of the day**  
    ![Polar Chart](PolarChart.png)  
-7. **Distribution of top 10 tags across day segments (morning vs. night)**  
+8. **Distribution of top 10 tags across day segments (morning vs. night)**  
    ![Sankey Diagram](SankeyDiagram.png)  
-8. **Proportion of "Education" videos before and during the academic semester**
+9. **Proportion of "Education" videos before and during the academic semester**
    ![Slope Chart](SlopeChart.png)  
-9. **Frequently occurring words in video titles**  
+10. **Frequently occurring words in video titles**  
    ![Word Cloud](Wordcloud.png)  
-10. **Total number of videos watched per month by category**  
+11. **Total number of videos watched per month by category**  
    ![Stacked Bar Chart](StackedBarChart.png)  
-11. **Video duration vs. view count** 
+12. **Video duration vs. view count** 
    ![Scatterplot](ScatterPlot.png)  
-12. **Video duration on weekdays vs. weekends**  
+13. **Video duration on weekdays vs. weekends**  
    ![Boxen Plot](BoxenPlot.png)  
-13. **Percentage of videos watched by category**  
+14. **Percentage of videos watched by category**  
    ![Pie Chart](PieChart.png)  
  
 ---
 
 ## Findings  
 ### Time Based Patterns  
-- **Daily Routines**: The [polar chart](#heatmap) shows that most of my viewing activity occurs during the late evening and night, with the peak hours being between 8 PM and 12 AM.
+- **Daily Routines**: The [polar chart](#polarchart) shows that most of my viewing activity occurs during the late evening and night, with the peak hours being between 8 PM and 12 AM.
 This indicates a strong preference for consuming content during leisure hours, potentially reflecting habits aligned with relaxation or free time after daily responsibilities.
 The ridgeline plot reveals that categories such as "Entertainment" and "Music" dominate during the late evening and nighttime hours, aligning with typical leisure time. In contrast, educational videos exhibit relatively consistent viewing throughout the day, with slight peaks in the afternoon and evening, potentially reflecting study sessions.
 - **Weekend vs. Weekday**: A two-sample t-test was conducted to determine whether there was a significant difference in the duration of videos watched between weekends and weekdays. The null hypothesis (H₀: No difference in video durations between weekends and weekdays) was rejected. This indicates that there is a statistically significant difference in the durations of videos watched on weekends compared to weekdays. The boxen plot illustrates that the median video duration on weekends is slightly higher than on weekdays. This trend may suggest that weekends allow for more leisure time to consume longer content.
