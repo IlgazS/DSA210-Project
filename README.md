@@ -45,22 +45,31 @@ The analysis was conducted using Python libraries such as pandas, seaborn, matpl
 
 ## Visualizations  
 ### Key Visualizations  
-1. 
-3. **Watch frequency over the hours of the day**  
+1. **Total number of videos watched by day of week & time of day**
+   ![Heatmap](Heatmap.png)
+2. **Most-watched channels (Top 5) by the number of videos**
+   ![Bar Plot](ChannelBarPlot.png)
+3. **Total videos watched by the day of the week**
+   ![Bar Plot 2](DOWBarPlot.png)
+4. **Distribution of the age of videos (time since publication) at the time they were watched**
+   ![Box Plot](BoxPlot.png)
+5. **Total videos watched across categories throughout the day**
+   ![Joy Plot](JoyPlot.png)
+6. **Watch frequency over the hours of the day**  
    ![Polar Chart](PolarChart.png)  
-4. **Distribution of tags across day segments (morning vs. night)**  
+7. **Distribution of tags across day segments (morning vs. night)**  
    ![Sankey Diagram](SankeyDiagram.png)  
-5. **Proportion of "Education" videos before and during the academic semester**
-   ![Slope Chart](slope_chart.png)  
-6. **Frequently occurring words in video titles**  
-   ![Word Cloud](word_cloud.png)  
-7. **Total number of videos watched per month by category**  
-   ![Stacked Bar Chart](stacked_bar_chart.png)  
-8. **Video duration vs. view count** 
+8. **Proportion of "Education" videos before and during the academic semester**
+   ![Slope Chart](SlopeChart.png)  
+9. **Frequently occurring words in video titles**  
+   ![Word Cloud](Wordcloud.png)  
+10. **Total number of videos watched per month by category**  
+   ![Stacked Bar Chart](StackedBarChart.png)  
+11. **Video duration vs. view count** 
    ![Scatterplot](ScatterPlot.png)  
-9. **Video duration on weekdays vs. weekends**  
+12. **Video duration on weekdays vs. weekends**  
    ![Boxen Plot](BoxenPlot.png)  
-10. **Percentage of videos watched by category**  
+13. **Percentage of videos watched by category**  
    ![Pie Chart](PieChart.png)  
  
 
