@@ -1,6 +1,6 @@
 # YouTube Watch History Analysis
 **DSA210: Introduction to Data Science Course Project**  
-Sabanci University Fall 2024  
+Sabanci University Fall 2024-2025
 
 ## Project Overview  
 This project is part of the **DSA210: Introduction to Data Science** course at Sabanci University. The primary goal is to analyze my personal YouTube watch history to uncover insights about my viewing patterns, habits, and interests. Using data collected via Google Takeout, I performed exploratory data analysis to identify trends in my behavior and understand how external factors might influence my choices.  
